@@ -1,6 +1,6 @@
 // controllers/ownershipTransferController.js
 import OwnershipTransfer from "../models/OwnershipTransfer.js";
-import Land from "../models/Land.js";
+import Land from "../model/landmodel.js";
 
 // Apply for ownership transfer
 export const applyTransfer = async (req, res) => {
