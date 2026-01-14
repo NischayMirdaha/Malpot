@@ -1,5 +1,5 @@
 import express from "express"
-import connectDB from "./config/mongodb.js"; //import from the mongodb.js 
+import connectDB from "./Database/Database.js"; //import from the mongodb.js 
 
 import userRoutes from "./Routes/userroute.js";
 import cors from "cors"
