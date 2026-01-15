@@ -1,8 +1,8 @@
 import express from "express";
 import bcrypt from "bcrypt";
-import User from "../models/userModel.js";
+import User from "../model/usermodel.js";
 import jwt, { decode } from "jsonwebtoken";
-import { getAllUsers } from "../controllers/userController.js"; // Import the controller
+import { getAllUsers } from "../Controller/Auth/usercontroller.js"; // Import the controller
 
 import dotenv from "dotenv";
 
