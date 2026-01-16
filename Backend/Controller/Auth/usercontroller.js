@@ -2,7 +2,7 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
 import nodemailer from 'nodemailer';
-import passport from "../config/passport.js";
+import passport from "../Config/passport.js";
 import { createTransporter } from './services/emailService.js';
 import prisma from '../config/client.js';
 
