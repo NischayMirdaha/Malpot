@@ -2,9 +2,8 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
 import nodemailer from 'nodemailer';
-import passport from "../Config/passport.js";
-import { createTransporter } from './services/emailService.js';
-import prisma from '../config/client.js';
+import passport from "../../config/passport.js";
+import sendEmail from "../../Services/emailService.js";
 
 const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
 const EMAIL_USER = process.env.EMAIL_USER;
